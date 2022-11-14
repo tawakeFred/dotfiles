@@ -70,3 +70,4 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+export PATH="/Users/fred/code/tawakeFred/dotfiles/homebrew/opt/sqlite/bin:$PATH"

@@ -58,7 +58,12 @@
   rebase = false
 
 [init]
-  defaultBranch = master
+	defaultBranch = main
 [user]
-	email = fred@twk.mn
+	email = fred@tawakemono.com
 	name = Fred Faeger
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
